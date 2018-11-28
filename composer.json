@@ -1,0 +1,20 @@
+{
+    "name": "sionnaouattara/hello-world",
+    "description": "My first composer project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sionna",
+            "email": "sionnaouattara@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+          "php": ">=5.6"
+    },
+    "autoload": {
+           "psr-0": {
+                "HelloWorld":"src/"
+           }
+    }
+}
